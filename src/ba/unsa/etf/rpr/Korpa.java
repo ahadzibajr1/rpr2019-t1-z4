@@ -28,8 +28,10 @@ public class Korpa {
 
     public int dajUkupnuCijenuArtikala() {
         int ukupnaCijena=0;
-        for (int i=0; i<brojArtikala; i++)
+        for (int i=0; i<brojArtikala; i++){
+            if (artikli[i]!=null)
             ukupnaCijena = ukupnaCijena + artikli[i].getCijena();
+        }
 
         return ukupnaCijena;
     }
