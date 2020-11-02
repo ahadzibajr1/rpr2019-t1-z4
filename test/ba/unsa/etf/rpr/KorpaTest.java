@@ -23,6 +23,7 @@ public class KorpaTest {
         k.dodajArtikl(a);
 
         assertEquals (a, k.izbaciArtiklSaKodom(a.getKod()));
+        assertNull (k.izbaciArtiklSaKodom("p2"));
 
     }
 }
