@@ -26,4 +26,14 @@ public class KorpaTest {
         assertNull (k.izbaciArtiklSaKodom("p2"));
 
     }
+
+    @Test
+    public void dajUkupunuCijenuArtikala () {
+        Korpa k = new Korpa();
+
+        for (int i=0; i<10; i++)
+            k.dodajArtikl(new Artikl("lopta", 10, "p"+i));
+        assertEquals(100, k.dajUkupnuCijenuArtikala());
+
+    }
 }

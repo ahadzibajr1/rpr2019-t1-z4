@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c51d47d2-0f15-4450-a4aa-997c6533d923" name="Default Changelist" comment="Dodan test dodajArtikl u testnu klasu KorpaTest&#10;&#10;Test provjerava da li će metoda dodajArtikl u klasi Korpa vratiti false ako pokušamo dodati više od 50 elemenata">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c51d47d2-0f15-4450-a4aa-997c6533d923" name="Default Changelist" comment="Dodana tvrdnja u test izbaciArtiklSaKodom u testnoj klasi KorpaTest&#10;&#10;Dodana je tvrdnja assertNull koja testira da li će zaista metoda izbaciArtiklSaKodom vratiti null ako joj proslijedimo string koji nije jednak niti jednom kodu artikala unutar te instance klase Korpa">
       <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604317205983</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dodan test izbaciArtiklSaKodom u testnu klasu KorpaTest&#10;&#10;U testu se testira tvrdnja assertEquals koja provjerava da li će se ispravno izvršiti metoda izbaciArtiklSaKodom iz klase Korpa kad joj proslijedimo atribut Kod instance klase Artikl koja se nalazi u instanci klase Korpa">
+      <created>1604317621245</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604317621245</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Dodana tvrdnja u test izbaciArtiklSaKodom u testnoj klasi KorpaTest&#10;&#10;Dodana je tvrdnja assertNull koja testira da li će zaista metoda izbaciArtiklSaKodom vratiti null ako joj proslijedimo string koji nije jednak niti jednom kodu artikala unutar te instance klase Korpa">
+      <created>1604317810385</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604317810385</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,29 +160,31 @@
     <MESSAGE value="Prepravljena metoda dajUkupnuCijenuArtikala u klasi Korpa" />
     <MESSAGE value="Dodana testna klasa KorpaTest" />
     <MESSAGE value="Dodan test dodajArtikl u testnu klasu KorpaTest&#10;&#10;Test provjerava da li će metoda dodajArtikl u klasi Korpa vratiti false ako pokušamo dodati više od 50 elemenata" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodan test dodajArtikl u testnu klasu KorpaTest&#10;&#10;Test provjerava da li će metoda dodajArtikl u klasi Korpa vratiti false ako pokušamo dodati više od 50 elemenata" />
+    <MESSAGE value="Dodan test izbaciArtiklSaKodom u testnu klasu KorpaTest&#10;&#10;U testu se testira tvrdnja assertEquals koja provjerava da li će se ispravno izvršiti metoda izbaciArtiklSaKodom iz klase Korpa kad joj proslijedimo atribut Kod instance klase Artikl koja se nalazi u instanci klase Korpa" />
+    <MESSAGE value="Dodana tvrdnja u test izbaciArtiklSaKodom u testnoj klasi KorpaTest&#10;&#10;Dodana je tvrdnja assertNull koja testira da li će zaista metoda izbaciArtiklSaKodom vratiti null ako joj proslijedimo string koji nije jednak niti jednom kodu artikala unutar te instance klase Korpa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodana tvrdnja u test izbaciArtiklSaKodom u testnoj klasi KorpaTest&#10;&#10;Dodana je tvrdnja assertNull koja testira da li će zaista metoda izbaciArtiklSaKodom vratiti null ako joj proslijedimo string koji nije jednak niti jednom kodu artikala unutar te instance klase Korpa" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1604315376654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1604315376654" />
-    <state width="1286" height="156" key="GridCell.Tab.0.bottom" timestamp="1604317237873">
+    <state width="1286" height="156" key="GridCell.Tab.0.bottom" timestamp="1604317810338">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604317237873" />
-    <state width="1286" height="156" key="GridCell.Tab.0.center" timestamp="1604317237873">
+    <state width="1286" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604317810338" />
+    <state width="1286" height="156" key="GridCell.Tab.0.center" timestamp="1604317810338">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604317237873" />
-    <state width="1286" height="156" key="GridCell.Tab.0.left" timestamp="1604317237873">
+    <state width="1286" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604317810338" />
+    <state width="1286" height="156" key="GridCell.Tab.0.left" timestamp="1604317810338">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604317237873" />
-    <state width="1286" height="156" key="GridCell.Tab.0.right" timestamp="1604317237873">
+    <state width="1286" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604317810338" />
+    <state width="1286" height="156" key="GridCell.Tab.0.right" timestamp="1604317810338">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604317237873" />
+    <state width="1286" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604317810338" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1603741576631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
