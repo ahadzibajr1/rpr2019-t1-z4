@@ -12,4 +12,13 @@ public class SupermarketTest {
         assertFalse (s.dodajArtikl (new Artikl("lopta", 10, "p" +2000)));
 
     }
+
+    @Test
+    public void izbaciArtiklSaKodom() {
+        Supermarket s = new Supermarket();
+        Artikl a = new Artikl ("lopta", 10, "p1");
+        s.dodajArtikl(a);
+
+        assertEquals (a, s.izbaciArtiklSaKodom(a.getKod()));
+    }
 }
