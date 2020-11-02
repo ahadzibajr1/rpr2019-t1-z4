@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c51d47d2-0f15-4450-a4aa-997c6533d923" name="Default Changelist" comment="Prepravljena metoda dajUkupnuCijenuArtikala u klasi Korpa">
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
+    <list default="true" id="c51d47d2-0f15-4450-a4aa-997c6533d923" name="Default Changelist" comment="Dodana testna klasa KorpaTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603744180025</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dodana testna klasa KorpaTest">
+      <created>1604316000439</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604316000439</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,29 +122,30 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Prepravljena metoda dajUkupnuCijenuArtikala u klasi Korpa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepravljena metoda dajUkupnuCijenuArtikala u klasi Korpa" />
+    <MESSAGE value="Dodana testna klasa KorpaTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodana testna klasa KorpaTest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1604315376654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1604315376654" />
-    <state width="1286" height="156" key="GridCell.Tab.0.bottom" timestamp="1603744336896">
+    <state width="1286" height="156" key="GridCell.Tab.0.bottom" timestamp="1604316019754">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603744336896" />
-    <state width="1286" height="156" key="GridCell.Tab.0.center" timestamp="1603744336896">
+    <state width="1286" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604316019754" />
+    <state width="1286" height="156" key="GridCell.Tab.0.center" timestamp="1604316019754">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603744336896" />
-    <state width="1286" height="156" key="GridCell.Tab.0.left" timestamp="1603744336896">
+    <state width="1286" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604316019754" />
+    <state width="1286" height="156" key="GridCell.Tab.0.left" timestamp="1604316019754">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603744336896" />
-    <state width="1286" height="156" key="GridCell.Tab.0.right" timestamp="1603744336896">
+    <state width="1286" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604316019754" />
+    <state width="1286" height="156" key="GridCell.Tab.0.right" timestamp="1604316019754">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603744336896" />
+    <state width="1286" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604316019754" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1603741576631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
