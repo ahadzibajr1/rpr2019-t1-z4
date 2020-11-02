@@ -34,6 +34,5 @@ public class KorpaTest {
         for (int i=0; i<10; i++)
             k.dodajArtikl(new Artikl("lopta", 10, "p"+i));
         assertEquals(100, k.dajUkupnuCijenuArtikala());
-
     }
 }
