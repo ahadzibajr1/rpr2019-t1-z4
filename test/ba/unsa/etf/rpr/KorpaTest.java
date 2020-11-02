@@ -15,4 +15,14 @@ public class KorpaTest {
         assertFalse (k.dodajArtikl (new Artikl("lopta", 10, "p" +100)));
 
     }
+
+    @Test
+    public void izbaciArtiklSaKodom () {
+        Korpa k = new Korpa ();
+        Artikl a = new Artikl ("lopta", 10, "p1");
+        k.dodajArtikl(a);
+
+        assertEquals (a, k.izbaciArtiklSaKodom(a.getKod()));
+
+    }
 }

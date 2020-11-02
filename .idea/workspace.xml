@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c51d47d2-0f15-4450-a4aa-997c6533d923" name="Default Changelist" comment="Dodana testna klasa KorpaTest">
+    <list default="true" id="c51d47d2-0f15-4450-a4aa-997c6533d923" name="Default Changelist" comment="Dodan test dodajArtikl u testnu klasu KorpaTest&#10;&#10;Test provjerava da li će metoda dodajArtikl u klasi Korpa vratiti false ako pokušamo dodati više od 50 elemenata">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
     </list>
@@ -54,7 +54,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.KorpaTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
       <module name="rpr2019-t1-z4" />
@@ -68,8 +68,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KorpaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KorpaTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -104,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604316000439</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dodan test dodajArtikl u testnu klasu KorpaTest&#10;&#10;Test provjerava da li će metoda dodajArtikl u klasi Korpa vratiti false ako pokušamo dodati više od 50 elemenata">
+      <created>1604317205983</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604317205983</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,29 +146,30 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Prepravljena metoda dajUkupnuCijenuArtikala u klasi Korpa" />
     <MESSAGE value="Dodana testna klasa KorpaTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodana testna klasa KorpaTest" />
+    <MESSAGE value="Dodan test dodajArtikl u testnu klasu KorpaTest&#10;&#10;Test provjerava da li će metoda dodajArtikl u klasi Korpa vratiti false ako pokušamo dodati više od 50 elemenata" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodan test dodajArtikl u testnu klasu KorpaTest&#10;&#10;Test provjerava da li će metoda dodajArtikl u klasi Korpa vratiti false ako pokušamo dodati više od 50 elemenata" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1604315376654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1604315376654" />
-    <state width="1286" height="156" key="GridCell.Tab.0.bottom" timestamp="1604316019754">
+    <state width="1286" height="156" key="GridCell.Tab.0.bottom" timestamp="1604317237873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604316019754" />
-    <state width="1286" height="156" key="GridCell.Tab.0.center" timestamp="1604316019754">
+    <state width="1286" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604317237873" />
+    <state width="1286" height="156" key="GridCell.Tab.0.center" timestamp="1604317237873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604316019754" />
-    <state width="1286" height="156" key="GridCell.Tab.0.left" timestamp="1604316019754">
+    <state width="1286" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604317237873" />
+    <state width="1286" height="156" key="GridCell.Tab.0.left" timestamp="1604317237873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604316019754" />
-    <state width="1286" height="156" key="GridCell.Tab.0.right" timestamp="1604316019754">
+    <state width="1286" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604317237873" />
+    <state width="1286" height="156" key="GridCell.Tab.0.right" timestamp="1604317237873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604316019754" />
+    <state width="1286" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604317237873" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1603741576631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
