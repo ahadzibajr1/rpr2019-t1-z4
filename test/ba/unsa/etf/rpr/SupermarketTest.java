@@ -20,5 +20,6 @@ public class SupermarketTest {
         s.dodajArtikl(a);
 
         assertEquals (a, s.izbaciArtiklSaKodom(a.getKod()));
+        assertNull (s.izbaciArtiklSaKodom("p2"));
     }
 }

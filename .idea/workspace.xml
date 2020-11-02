@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c51d47d2-0f15-4450-a4aa-997c6533d923" name="Default Changelist" comment="Dodana testna klasa SupermarketTest">
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
+    <list default="true" id="c51d47d2-0f15-4450-a4aa-997c6533d923" name="Default Changelist" comment="Dodan test izbaciArtiklSaKodom u testnu klasu SupermarketTest&#10;&#10;U testu se testira tvrdnja assertEquals koja provjerava da li će metoda izbaciArtiklSaKodom iz klase Supermarket izbaciti ispravan artikl, kad joj se proslijedi kod nekog artikla koji je zaista u instanci klase Supermarket">
       <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +170,28 @@
       <option name="project" value="LOCAL" />
       <updated>1604318183366</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Promijenjena metoda dodajArtikl u klasi Supermarket&#10;&#10;Metoda je promijenjena tako da sad vraća boolean tip vrijednosti, i to false ako će dodatni artikl dovesti do premašenja kapaciteta (1000), odnosno true u suprotnom.">
+      <created>1604318429993</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604318429993</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Dodan test dodajArtikl u testnu klasu SupermarketTest&#10;&#10;U testu se testira tvrdnja assertFalse koja provjerava da li će dodajArtikl (iz klase Supermarket) vratiti false vrijednost ako se pokuša dodati više od 1000 artikala u supermarket">
+      <created>1604318558160</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604318558160</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Dodan test izbaciArtiklSaKodom u testnu klasu SupermarketTest&#10;&#10;U testu se testira tvrdnja assertEquals koja provjerava da li će metoda izbaciArtiklSaKodom iz klase Supermarket izbaciti ispravan artikl, kad joj se proslijedi kod nekog artikla koji je zaista u instanci klase Supermarket">
+      <created>1604318736656</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604318736656</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,29 +215,32 @@
     <MESSAGE value="Dodana tvrdnja u test izbaciArtiklSaKodom u testnoj klasi KorpaTest&#10;&#10;Dodana je tvrdnja assertNull koja testira da li će zaista metoda izbaciArtiklSaKodom vratiti null ako joj proslijedimo string koji nije jednak niti jednom kodu artikala unutar te instance klase Korpa" />
     <MESSAGE value="Dodan test dajUkupnuCijenuArtikala u testnu klasu KorpaTest&#10;&#10;U testu se provjerava tvrdnja assertEquals koja provjerava da li će metoda dajUkupnuCijenuArtikala iz klase Korpa vratiti ispravnu vrijednost" />
     <MESSAGE value="Dodana testna klasa SupermarketTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodana testna klasa SupermarketTest" />
+    <MESSAGE value="Promijenjena metoda dodajArtikl u klasi Supermarket&#10;&#10;Metoda je promijenjena tako da sad vraća boolean tip vrijednosti, i to false ako će dodatni artikl dovesti do premašenja kapaciteta (1000), odnosno true u suprotnom." />
+    <MESSAGE value="Dodan test dodajArtikl u testnu klasu SupermarketTest&#10;&#10;U testu se testira tvrdnja assertFalse koja provjerava da li će dodajArtikl (iz klase Supermarket) vratiti false vrijednost ako se pokuša dodati više od 1000 artikala u supermarket" />
+    <MESSAGE value="Dodan test izbaciArtiklSaKodom u testnu klasu SupermarketTest&#10;&#10;U testu se testira tvrdnja assertEquals koja provjerava da li će metoda izbaciArtiklSaKodom iz klase Supermarket izbaciti ispravan artikl, kad joj se proslijedi kod nekog artikla koji je zaista u instanci klase Supermarket" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodan test izbaciArtiklSaKodom u testnu klasu SupermarketTest&#10;&#10;U testu se testira tvrdnja assertEquals koja provjerava da li će metoda izbaciArtiklSaKodom iz klase Supermarket izbaciti ispravan artikl, kad joj se proslijedi kod nekog artikla koji je zaista u instanci klase Supermarket" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1604315376654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1604315376654" />
-    <state width="1286" height="156" key="GridCell.Tab.0.bottom" timestamp="1604318164068">
+    <state width="1286" height="156" key="GridCell.Tab.0.bottom" timestamp="1604318637206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604318164068" />
-    <state width="1286" height="156" key="GridCell.Tab.0.center" timestamp="1604318164068">
+    <state width="1286" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604318637206" />
+    <state width="1286" height="156" key="GridCell.Tab.0.center" timestamp="1604318637206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604318164068" />
-    <state width="1286" height="156" key="GridCell.Tab.0.left" timestamp="1604318164068">
+    <state width="1286" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604318637206" />
+    <state width="1286" height="156" key="GridCell.Tab.0.left" timestamp="1604318637206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604318164068" />
-    <state width="1286" height="156" key="GridCell.Tab.0.right" timestamp="1604318164068">
+    <state width="1286" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604318637206" />
+    <state width="1286" height="156" key="GridCell.Tab.0.right" timestamp="1604318637206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604318164068" />
+    <state width="1286" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604318637206" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1603741576631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
